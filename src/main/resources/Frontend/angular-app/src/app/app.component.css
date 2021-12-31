@@ -58,3 +58,7 @@ body{
   color: white;
   padding-left: 10px;
 }
+
+#StartButton {
+  padding-top: 40px;
+}
