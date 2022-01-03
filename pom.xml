@@ -50,6 +50,26 @@
             <artifactId>spring-data-jpa</artifactId>
             <version>2.6.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.vbmacher</groupId>
+            <artifactId>java-cup</artifactId>
+            <version>11b-20160615</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.matrix-toolkits-java</groupId>
+            <artifactId>mtj</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.fracpete</groupId>
+            <artifactId>jfilechooser-bookmarks</artifactId>
+            <version>0.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka.thirdparty</groupId>
+            <artifactId>bounce</artifactId>
+            <version>0.18</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -21,7 +21,6 @@
 package weka.core;
 
 import weka.Run;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.lang.reflect.Array;

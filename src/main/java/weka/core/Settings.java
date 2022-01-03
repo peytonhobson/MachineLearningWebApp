@@ -23,17 +23,13 @@ package weka.core;
 
 import weka.core.metastore.MetaStore;
 import weka.core.metastore.XMLFileBasedMetaStore;
-import weka.knowledgeflow.LoggingLevel;
 
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Maintains a collection of settings. Settings are key value pairs which can be
@@ -375,9 +371,11 @@ public class Settings implements Serializable {
       return (T) (Long.valueOf(propVal));
     }
 
+    /*
     if (defaultVal instanceof LoggingLevel) {
       return (T) (LoggingLevel.stringToLevel(propVal));
     }
+    */
 
     return null;
   }

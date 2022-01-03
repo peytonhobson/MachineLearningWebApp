@@ -21,22 +21,12 @@
 
 package weka.classifiers.functions.supportVector;
 
+import weka.core.*;
+import weka.gui.ProgrammaticProperty;
+
 import java.io.Serializable;
 import java.util.Enumeration;
 import java.util.Vector;
-
-import weka.core.Capabilities;
-import weka.core.CapabilitiesHandler;
-import weka.core.Copyable;
-import weka.core.Instance;
-import weka.core.Instances;
-import weka.core.Option;
-import weka.core.OptionHandler;
-import weka.core.RevisionHandler;
-import weka.core.RevisionUtils;
-import weka.core.SerializedObject;
-import weka.core.Utils;
-import weka.gui.ProgrammaticProperty;
 
 /**
  * Abstract kernel. Kernels implementing this class must respect Mercer's

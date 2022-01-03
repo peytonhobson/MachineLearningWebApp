@@ -57,8 +57,23 @@ body{
 .navbar-brand {
   color: white;
   padding-left: 10px;
+  padding-right: 10px;
+  border-right: white;
+  border-left: white;
 }
 
 #StartButton {
   padding-top: 40px;
+}
+
+li.active {
+  background-color: red !important;
+}
+
+a.active{
+  color: red !important
+}
+
+#HomeLink {
+  padding-left:30px;
 }

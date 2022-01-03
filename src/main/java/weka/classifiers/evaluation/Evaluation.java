@@ -3360,21 +3360,23 @@ public class Evaluation implements Summarizable, RevisionHandler, Serializable {
       throw new Exception("Evaluation: No per class statistics possible!");
     }
 
-    boolean displayTP = m_metricsToDisplay.contains("tp rate");
-    boolean displayFP = m_metricsToDisplay.contains("fp rate");
-    boolean displayP = m_metricsToDisplay.contains("precision");
-    boolean displayR = m_metricsToDisplay.contains("recall");
-    boolean displayFM = m_metricsToDisplay.contains("f-measure");
-    boolean displayMCC = m_metricsToDisplay.contains("mcc");
-    boolean displayROC = m_metricsToDisplay.contains("roc area");
-    boolean displayPRC = m_metricsToDisplay.contains("prc area");
+    boolean displayTP = true;
+    boolean displayFP = true;
+    boolean displayP = true;
+    boolean displayR = true;
+    boolean displayFM = true;
+    boolean displayMCC = true;
+    boolean displayROC = true;
+    boolean displayPRC = true;
 
     StringBuffer text =
       new StringBuffer(title + "\n                 "
-        + (displayTP ? "TP Rate  " : "") + (displayFP ? "FP Rate  " : "")
-        + (displayP ? "Precision  " : "") + (displayR ? "Recall   " : "")
-        + (displayFM ? "F-Measure  " : "") + (displayMCC ? "MCC      " : "")
-        + (displayROC ? "ROC Area  " : "") + (displayPRC ? "PRC Area  " : ""));
+        + "TP Rate  " + "FP Rate  "
+        + "Precision  " + "Recall   "
+        + "F-Measure  " + "MCC      "
+        + "ROC Area  " + "PRC Area  ");
+
+    System.out.println(m_pluginMetrics);
 
     if (m_pluginMetrics != null && m_pluginMetrics.size() > 0) {
       for (AbstractEvaluationMetric m : m_pluginMetrics) {

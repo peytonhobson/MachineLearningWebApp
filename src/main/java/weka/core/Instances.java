@@ -21,21 +21,15 @@
 
 package weka.core;
 
+import weka.core.converters.ArffLoader.ArffReader;
+import weka.core.converters.ConverterUtils.DataSource;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Serializable;
-import java.util.AbstractList;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Random;
-
-import weka.core.converters.ArffLoader.ArffReader;
-import weka.core.converters.ConverterUtils.DataSource;
 
 /**
  * Class for handling an ordered set of weighted instances.
@@ -950,10 +944,6 @@ RevisionHandler {
    */
   // @ requires classIndex() >= 0;
   public/* @pure@ */int numClasses() {
-
-    if (m_ClassIndex < 0) {
-      throw new UnassignedClassException("Class index is negative (not set)!");
-    }
     if (!classAttribute().isNominal()) {
       return 1;
     } else {

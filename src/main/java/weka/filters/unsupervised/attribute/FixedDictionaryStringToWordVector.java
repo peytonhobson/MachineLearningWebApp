@@ -21,13 +21,6 @@
 
 package weka.filters.unsupervised.attribute;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Reader;
-
-import javax.swing.JFileChooser;
-
 import weka.core.*;
 import weka.core.stemmers.NullStemmer;
 import weka.core.stemmers.Stemmer;
@@ -37,6 +30,12 @@ import weka.core.tokenizers.Tokenizer;
 import weka.filters.SimpleStreamFilter;
 import weka.filters.UnsupervisedFilter;
 import weka.gui.FilePropertyMetadata;
+
+import javax.swing.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.Reader;
 
 /**
  * <!-- globalinfo-start --> Converts String attributes into a set of attributes
