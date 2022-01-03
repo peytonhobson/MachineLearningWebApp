@@ -1,7 +1,7 @@
 package com.web;
 
-import lombok.SneakyThrows;
 import weka.classifiers.Classifier;
+import weka.classifiers.Evaluation;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.core.converters.ConverterUtils;
 
@@ -12,8 +12,6 @@ import java.util.Formatter;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import static weka.classifiers.evaluation.Evaluation.evaluateModel;
 
 public class Server {
 
@@ -115,21 +113,22 @@ public class Server {
 
                 Classifier classifier = new NaiveBayes();
 
-                System.out.println(evaluateModel(classifier, args));
+                try {
+                    ConverterUtils.DataSource source = new ConverterUtils.DataSource("https://storm.cis.fordham.edu/~gweiss/data-mining/weka-data/weather.arff");
+                }
+                catch(Exception exception) {
+                    exception.printStackTrace();
+                    System.exit(1);
+                }
 
+                try {
+                    output.format("%s",Evaluation.evaluateModel(classifier, args));
+                }
+                catch(Exception exception) {
+                    exception.printStackTrace();
+                    System.exit(1);
+                }
             }
-
-
-
         }
-
-
-
-
-
-
-
     }
-
-
 }
