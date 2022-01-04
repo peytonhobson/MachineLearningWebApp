@@ -71,9 +71,13 @@ li.active {
 }
 
 a.active{
-  color: red !important
+  color: red !important;
 }
 
 #HomeLink {
   padding-left:30px;
+}
+
+.method-list {
+  cursor: pointer;
 }

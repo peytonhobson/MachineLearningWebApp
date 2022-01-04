@@ -1,16 +1,6 @@
 <div class="container">
   <div class="main-body">
 
-    <!-- Breadcrumb
-    <nav aria-label="breadcrumb" class="main-breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item"><a href="javascript:void(0)">User</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Statistical Models</li>
-      </ol>
-    </nav>
-    /Breadcrumb -->
-
     <!-- Need to add active function -->
     <nav class="navbar navbar-light bg-dark">
       <div class="col-md-4">
@@ -28,21 +18,21 @@
                 <h3 class="text-center">Choose a Dataset</h3>
               </div>
               <div class="row">
-                <ul class="list-group list-group-flush align-items-center">
-                  <li class="list-group-item active d-flex justify-content-between align-items-center">
-                    <span class = "method-list">Weather</span>
+                <ul class="list-group list-group-flush align-items-center" id="datasetList">
+                  <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                    <button class = "datasetButton btn btn-outline-dark active">Weather</button>
                   </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <span class="method-list">Labor</span>
+                  <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                    <button class = "datasetButton btn btn-outline-dark">Labor</button>
                   </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <span class="method-list">Supermarket</span>
+                  <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                    <button class = "datasetButton btn btn-outline-dark">Supermarket</button>
                   </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <span class="method-list">Vote</span>
+                  <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                    <button class = "datasetButton btn btn-outline-dark">Vote</button>
                   </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <span class="method-list">Diabetes</span>
+                  <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                    <button class = "datasetButton btn btn-outline-dark">Diabetes</button>
                   </li>
                 </ul>
               </div>
@@ -54,15 +44,15 @@
           <div class="row">
             <h3 class="text-center">Choose a Classifier</h3>
           </div>
-          <ul class="list-group list-group-flush align-items-center">
-            <li class="list-group-item active d-flex justify-content-between align-items-center">
-              <span class = "method-list">Naive Bayes</span>
+          <ul class="list-group list-group-flush align-items-center" id="methodList">
+            <li class="list-group-item method-list d-flex justify-content-between align-items-center">
+              <button class="methodButton btn btn-outline-dark active">Naive Bayes</button>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              <span class="method-list">Logistic Regression</span>
+            <li class="list-group-item method-list d-flex justify-content-between align-items-center">
+              <button class="methodButton btn btn-outline-dark">Logistic Regression</button>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              <span class="method-list">ZeroR</span>
+            <li class="list-group-item method-list d-flex justify-content-between align-items-center">
+              <button class="methodButton btn btn-outline-dark">ZeroR</button>
             </li>
           </ul>
         </div>
@@ -184,11 +174,9 @@
             </div>
           </div>
         </div>
-
-
-
       </div>
     </div>
-
   </div>
 </div>
+
+<script src="app/src/js/ButtonFunction.js"></script>
