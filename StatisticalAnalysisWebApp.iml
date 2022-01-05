@@ -14,7 +14,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="entityManagerFactory" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -29,6 +31,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/resources/Frontend/angular-app/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/resources/Frontend/angular-app/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -145,5 +149,8 @@
     <orderEntry type="library" name="Maven: com.github.fracpete:jfilechooser-bookmarks:0.1.6" level="project" />
     <orderEntry type="library" name="Maven: com.github.fracpete:jclipboardhelper:0.1.0" level="project" />
     <orderEntry type="library" name="Maven: nz.ac.waikato.cms.weka.thirdparty:bounce:0.18" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-websocket:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:5.3.12" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-websocket:5.3.12" level="project" />
   </component>
 </module>

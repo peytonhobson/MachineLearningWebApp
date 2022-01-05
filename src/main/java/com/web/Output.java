@@ -1,30 +1,42 @@
 package com.web;
 
+import Model.Response;
 import weka.classifiers.Classifier;
+import weka.classifiers.Evaluation;
 import weka.classifiers.bayes.NaiveBayes;
-import weka.core.Instances;
-import weka.core.converters.ConverterUtils.DataSource;
-
-import static weka.classifiers.evaluation.Evaluation.evaluateModel;
+import weka.classifiers.functions.Logistic;
+import weka.classifiers.rules.ZeroR;
 
 public class Output {
 
-    protected Instances m_Instances;
-
-    protected void startClassifier() throws Exception {
-
-        StringBuffer outBuff = new StringBuffer();
-        DataSource source = new DataSource("https://storm.cis.fordham.edu/~gweiss/data-mining/weka-data/weather.arff");
+    public static String startClassifier(Response response) throws Exception {
 
         // TODO: Add way to differentiate between datasets for classIndex
 
         String[] args = new String[2];
         args[0] = "-t";
-        args[1] = "https://storm.cis.fordham.edu/~gweiss/data-mining/weka-data/weather.arff";
+        args[1] = "https://storm.cis.fordham.edu/~gweiss/data-mining/weka-data" + response.getDataset() + ".arff";
 
-        Classifier classifier = new NaiveBayes();
+        Classifier classifier;
 
-        System.out.println(evaluateModel(classifier, args));
+        if (response.getClassifier().equals("Naive Bayes")) {
+            classifier = new NaiveBayes();
+        }
+        else if(response.getClassifier().equals("ZeroR")) {
+            classifier = new ZeroR();
+        }
+        else {
+            classifier = new Logistic();
+        }
 
+//        try {
+//            ConverterUtils.DataSource source = new ConverterUtils.DataSource(args[1]);
+//        }
+//        catch(Exception exception) {
+//            exception.printStackTrace();
+//            System.exit(1);
+//        }
+
+        return Evaluation.evaluateModel(classifier, args);
     }
 }
