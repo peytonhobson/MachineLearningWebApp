@@ -3,7 +3,7 @@ README
 
 NOTE: Any filename changes must be reflected in build.xml as well!
 
-An overview of the libraries used in Weka (or some of its packages) during compile time and/or run time:
+An overview of the libraries used in Weka (or some of its packages) during compile time and/or com.run time:
 
 - junit-4.13.1.jar
   Version: 4.13.1
