@@ -9,7 +9,7 @@
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="rest-calculator-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="StatisticalAnalysisWebApp-0.0.1-SNAPSHOT.war">
       <element id="artifact" artifact-name="StatisticalAnalysisWebApp:war exploded" />
     </root>
   </artifact>

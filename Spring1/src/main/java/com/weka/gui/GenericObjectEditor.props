@@ -1,0 +1,567 @@
+# Customises the list of options given by the GenericObjectEditor
+#
+# Thu Jun 19 02:47:27 GMT 2008
+ 
+# Lists the SearchAlgorithms I want to choose from
+com.weka.classifiers.bayes.net.search.SearchAlgorithm=\
+ com.weka.classifiers.bayes.net.search.local.GeneticSearch,\
+ com.weka.classifiers.bayes.net.search.local.HillClimber,\
+ com.weka.classifiers.bayes.net.search.local.K2,\
+ com.weka.classifiers.bayes.net.search.local.LAGDHillClimber,\
+ com.weka.classifiers.bayes.net.search.local.RepeatedHillClimber,\
+ com.weka.classifiers.bayes.net.search.local.SimulatedAnnealing,\
+ com.weka.classifiers.bayes.net.search.local.TabuSearch,\
+ com.weka.classifiers.bayes.net.search.local.TAN,\
+ com.weka.classifiers.bayes.net.search.ci.CISearchAlgorithm,\
+ com.weka.classifiers.bayes.net.search.ci.ICSSearchAlgorithm,\
+ com.weka.classifiers.bayes.net.search.global.GeneticSearch,\
+ com.weka.classifiers.bayes.net.search.global.HillClimber,\
+ com.weka.classifiers.bayes.net.search.global.K2,\
+ com.weka.classifiers.bayes.net.search.global.RepeatedHillClimber,\
+ com.weka.classifiers.bayes.net.search.global.SimulatedAnnealing,\
+ com.weka.classifiers.bayes.net.search.global.TabuSearch,\
+ com.weka.classifiers.bayes.net.search.global.TAN,\
+ com.weka.classifiers.bayes.net.search.fixed.FromFile,\
+ com.weka.classifiers.bayes.net.search.fixed.NaiveBayes
+ 
+# Lists the ResultListeners I want to choose from
+com.weka.experiment.ResultListener=\
+ com.weka.experiment.CSVResultListener,\
+ com.weka.experiment.DatabaseResultListener,\
+ com.weka.experiment.InstancesResultListener
+ 
+# Lists the Savers I want to choose from
+com.weka.core.converters.Saver=\
+ com.weka.core.converters.ArffSaver,\
+ com.weka.core.converters.C45Saver,\
+ com.weka.core.converters.CSVSaver,\
+ com.weka.core.converters.DatabaseSaver,\
+ com.weka.core.converters.LibSVMSaver,\
+ com.weka.core.converters.MatlabSaver,\
+ com.weka.core.converters.SerializedInstancesSaver,\
+ com.weka.core.converters.XRFFSaver
+ 
+# Lists the NearestNeighbourSearchs I want to choose from
+com.weka.core.neighboursearch.NearestNeighbourSearch=\
+ com.weka.core.neighboursearch.BallTree,\
+ com.weka.core.neighboursearch.CoverTree,\
+ com.weka.core.neighboursearch.KDTree,\
+ com.weka.core.neighboursearch.LinearNNSearch
+ 
+# Lists the ResultMatrixs I want to choose from
+com.weka.experiment.ResultMatrix=\
+ com.weka.experiment.ResultMatrixCSV,\
+ com.weka.experiment.ResultMatrixGnuPlot,\
+ com.weka.experiment.ResultMatrixHTML,\
+ com.weka.experiment.ResultMatrixLatex,\
+ com.weka.experiment.ResultMatrixPlainText,\
+ com.weka.experiment.ResultMatrixSignificance
+ 
+# Lists the ClusterDefinitions I want to choose from
+com.weka.datagenerators.ClusterDefinition=\
+ com.weka.datagenerators.clusterers.SubspaceClusterDefinition
+ 
+# Lists the BallTreeConstructors I want to choose from
+com.weka.core.neighboursearch.balltrees.BallTreeConstructor=\
+ com.weka.core.neighboursearch.balltrees.BottomUpConstructor,\
+ com.weka.core.neighboursearch.balltrees.MiddleOutConstructor,\
+ com.weka.core.neighboursearch.balltrees.TopDownConstructor
+ 
+# Lists the ASEvaluations I want to choose from
+com.weka.attributeSelection.ASEvaluation=\
+ com.weka.attributeSelection.CfsSubsetEval,\
+ com.weka.attributeSelection.ChiSquaredAttributeEval,\
+ com.weka.attributeSelection.ClassifierSubsetEval,\
+ com.weka.attributeSelection.ConsistencySubsetEval,\
+ com.weka.attributeSelection.CostSensitiveAttributeEval,\
+ com.weka.attributeSelection.CostSensitiveSubsetEval,\
+ com.weka.attributeSelection.FilteredAttributeEval,\
+ com.weka.attributeSelection.FilteredSubsetEval,\
+ com.weka.attributeSelection.GainRatioAttributeEval,\
+ com.weka.attributeSelection.InfoGainAttributeEval,\
+ com.weka.attributeSelection.LatentSemanticAnalysis,\
+ com.weka.attributeSelection.OneRAttributeEval,\
+ com.weka.attributeSelection.PrincipalComponents,\
+ com.weka.attributeSelection.ReliefFAttributeEval,\
+ com.weka.attributeSelection.SVMAttributeEval,\
+ com.weka.attributeSelection.SignificanceAttributeEval,\
+ com.weka.attributeSelection.SymmetricalUncertAttributeEval,\
+ com.weka.attributeSelection.SymmetricalUncertAttributeSetEval,\
+ com.weka.attributeSelection.WrapperSubsetEval
+ 
+# Lists the VisualizePlugins I want to choose from
+com.weka.gui.visualize.plugins.VisualizePlugin=\
+
+
+# Lists the TreeVisualizePlugins I want to choose from
+com.weka.gui.visualize.plugins.TreeVisualizePlugin=\
+
+
+# Lists the GraphVisualizePlugins I want to choose from
+com.weka.gui.visualize.plugins.GraphVisualizePlugin=\
+
+
+# Lists the ErrorVisualizePlugins I want to choose from
+com.weka.gui.visualize.plugins.ErrorVisualizePlugin=\
+ 
+ 
+# Lists the Loaders I want to choose from
+com.weka.core.converters.Loader=\
+ com.weka.core.converters.ArffLoader,\
+ com.weka.core.converters.C45Loader,\
+ com.weka.core.converters.CSVLoader,\
+ com.weka.core.converters.DatabaseLoader,\
+ com.weka.core.converters.LibSVMLoader,\
+ com.weka.core.converters.MatlabLoader,\
+ com.weka.core.converters.SerializedInstancesLoader,\
+ com.weka.core.converters.TextDirectoryLoader,\
+ com.weka.core.converters.XRFFLoader
+ 
+# Lists the Tokenizers I want to choose from
+com.weka.core.tokenizers.Tokenizer=\
+ com.weka.core.tokenizers.AlphabeticTokenizer,\
+ com.weka.core.tokenizers.NGramTokenizer,\
+ com.weka.core.tokenizers.WordTokenizer
+ 
+# Lists the Classifiers I want to choose from
+com.weka.classifiers.Classifier=\
+ com.weka.classifiers.bayes.AODE,\
+ com.weka.classifiers.bayes.AODEsr,\
+ com.weka.classifiers.bayes.BayesianLogisticRegression,\
+ com.weka.classifiers.bayes.BayesNet,\
+ com.weka.classifiers.bayes.ComplementNaiveBayes,\
+ com.weka.classifiers.bayes.DMNBtext,\
+ com.weka.classifiers.bayes.HNB,\
+ com.weka.classifiers.bayes.NaiveBayes,\
+ com.weka.classifiers.bayes.NaiveBayesMultinomial,\
+ com.weka.classifiers.bayes.NaiveBayesMultinomialUpdateable,\
+ com.weka.classifiers.bayes.NaiveBayesSimple,\
+ com.weka.classifiers.bayes.NaiveBayesUpdateable,\
+ com.weka.classifiers.bayes.WAODE,\
+ com.weka.classifiers.functions.GaussianProcesses,\
+ com.weka.classifiers.functions.IsotonicRegression,\
+ com.weka.classifiers.functions.LeastMedSq,\
+ com.weka.classifiers.functions.LibLINEAR,\
+ com.weka.classifiers.functions.LibSVM,\
+ com.weka.classifiers.functions.LinearRegression,\
+ com.weka.classifiers.functions.Logistic,\
+ com.weka.classifiers.functions.MultilayerPerceptron,\
+ com.weka.classifiers.functions.PaceRegression,\
+ com.weka.classifiers.functions.PLSClassifier,\
+ com.weka.classifiers.functions.RBFNetwork,\
+ com.weka.classifiers.functions.SimpleLinearRegression,\
+ com.weka.classifiers.functions.SimpleLogistic,\
+ com.weka.classifiers.functions.SMO,\
+ com.weka.classifiers.functions.SMOreg,\
+ com.weka.classifiers.functions.VotedPerceptron,\
+ com.weka.classifiers.functions.Winnow,\
+ com.weka.classifiers.lazy.IB1,\
+ com.weka.classifiers.lazy.IBk,\
+ com.weka.classifiers.lazy.KStar,\
+ com.weka.classifiers.lazy.LBR,\
+ com.weka.classifiers.lazy.LWL,\
+ com.weka.classifiers.meta.AdaBoostM1,\
+ com.weka.classifiers.meta.AdditiveRegression,\
+ com.weka.classifiers.meta.AttributeSelectedClassifier,\
+ com.weka.classifiers.meta.Bagging,\
+ com.weka.classifiers.meta.ClassificationViaClustering,\
+ com.weka.classifiers.meta.ClassificationViaRegression,\
+ com.weka.classifiers.meta.CostSensitiveClassifier,\
+ com.weka.classifiers.meta.CVParameterSelection,\
+ com.weka.classifiers.meta.Dagging,\
+ com.weka.classifiers.meta.Decorate,\
+ com.weka.classifiers.meta.END,\
+ com.weka.classifiers.meta.EnsembleSelection,\
+ com.weka.classifiers.meta.FilteredClassifier,\
+ com.weka.classifiers.meta.Grading,\
+ com.weka.classifiers.meta.GridSearch,\
+ com.weka.classifiers.meta.LogitBoost,\
+ com.weka.classifiers.meta.MetaCost,\
+ com.weka.classifiers.meta.MultiBoostAB,\
+ com.weka.classifiers.meta.MultiClassClassifier,\
+ com.weka.classifiers.meta.MultiScheme,\
+ com.weka.classifiers.meta.OrdinalClassClassifier,\
+ com.weka.classifiers.meta.RacedIncrementalLogitBoost,\
+ com.weka.classifiers.meta.RandomCommittee,\
+ com.weka.classifiers.meta.RandomSubSpace,\
+ com.weka.classifiers.meta.RegressionByDiscretization,\
+ com.weka.classifiers.meta.RotationForest,\
+ com.weka.classifiers.meta.Stacking,\
+ com.weka.classifiers.meta.StackingC,\
+ com.weka.classifiers.meta.ThresholdSelector,\
+ com.weka.classifiers.meta.Vote,\
+ com.weka.classifiers.meta.nestedDichotomies.ClassBalancedND,\
+ com.weka.classifiers.meta.nestedDichotomies.DataNearBalancedND,\
+ com.weka.classifiers.meta.nestedDichotomies.ND,\
+ com.weka.classifiers.mi.CitationKNN,\
+ com.weka.classifiers.mi.MDD,\
+ com.weka.classifiers.mi.MIBoost,\
+ com.weka.classifiers.mi.MIDD,\
+ com.weka.classifiers.mi.MIEMDD,\
+ com.weka.classifiers.mi.MILR,\
+ com.weka.classifiers.mi.MINND,\
+ com.weka.classifiers.mi.MIOptimalBall,\
+ com.weka.classifiers.mi.MISMO,\
+ com.weka.classifiers.mi.MISVM,\
+ com.weka.classifiers.mi.MIWrapper,\
+ com.weka.classifiers.mi.SimpleMI,\
+ com.weka.classifiers.mi.TLD,\
+ com.weka.classifiers.mi.TLDSimple,\
+ com.weka.classifiers.misc.FLR,\
+ com.weka.classifiers.misc.HyperPipes,\
+ com.weka.classifiers.misc.OSDL,\
+ com.weka.classifiers.misc.SerializedClassifier,\
+ com.weka.classifiers.misc.VFI,\
+ com.weka.classifiers.scripting.GroovyClassifier,\
+ com.weka.classifiers.scripting.JythonClassifier,\
+ com.weka.classifiers.trees.ADTree,\
+ com.weka.classifiers.trees.BFTree,\
+ com.weka.classifiers.trees.DecisionStump,\
+ com.weka.classifiers.trees.FT,\
+ com.weka.classifiers.trees.Id3,\
+ com.weka.classifiers.trees.J48,\
+ com.weka.classifiers.trees.J48graft,\
+ com.weka.classifiers.trees.LADTree,\
+ com.weka.classifiers.trees.LMT,\
+ com.weka.classifiers.trees.M5P,\
+ com.weka.classifiers.trees.NBTree,\
+ com.weka.classifiers.trees.RandomForest,\
+ com.weka.classifiers.trees.RandomTree,\
+ com.weka.classifiers.trees.REPTree,\
+ com.weka.classifiers.trees.SimpleCart,\
+ com.weka.classifiers.trees.UserClassifier,\
+ com.weka.classifiers.rules.ConjunctiveRule,\
+ com.weka.classifiers.rules.DecisionTable,\
+ com.weka.classifiers.rules.DTNB,\
+ com.weka.classifiers.rules.JRip,\
+ com.weka.classifiers.rules.M5Rules,\
+ com.weka.classifiers.rules.NNge,\
+ com.weka.classifiers.rules.OLM,\
+ com.weka.classifiers.rules.OneR,\
+ com.weka.classifiers.rules.PART,\
+ com.weka.classifiers.rules.Prism,\
+ com.weka.classifiers.rules.Ridor,\
+ com.weka.classifiers.rules.ZeroR
+
+# Lists the AbstractOutput classes I want to choose from
+com.weka.classifiers.evaluation.com.output.prediction.AbstractOutput=\
+  com.weka.classifiers.evaluation.com.output.prediction.CSV,\
+  com.weka.classifiers.evaluation.com.output.prediction.HTML,\
+  com.weka.classifiers.evaluation.com.output.prediction.Null,\
+  com.weka.classifiers.evaluation.com.output.prediction.PlainText
+ 
+# Lists the DistanceFunctions I want to choose from
+com.weka.core.DistanceFunction=\
+ com.weka.core.ChebyshevDistance,\
+ com.weka.core.EditDistance,\
+ com.weka.core.EuclideanDistance,\
+ com.weka.core.ManhattanDistance
+ 
+# Lists the Clusterers I want to choose from
+com.weka.clusterers.Clusterer=\
+ com.weka.clusterers.CLOPE,\
+ com.weka.clusterers.Cobweb,\
+ com.weka.clusterers.DBScan,\
+ com.weka.clusterers.EM,\
+ com.weka.clusterers.FarthestFirst,\
+ com.weka.clusterers.FilteredClusterer,\
+ com.weka.clusterers.MakeDensityBasedClusterer,\
+ com.weka.clusterers.OPTICS,\
+ com.weka.clusterers.sIB,\
+ com.weka.clusterers.SimpleKMeans,\
+ com.weka.clusterers.XMeans
+ 
+# Lists the UnsupervisedFilters I want to choose from
+com.weka.filters.UnsupervisedFilter=\
+ com.weka.filters.unsupervised.attribute.Add,\
+ com.weka.filters.unsupervised.attribute.AddCluster,\
+ com.weka.filters.unsupervised.attribute.AddExpression,\
+ com.weka.filters.unsupervised.attribute.AddID,\
+ com.weka.filters.unsupervised.attribute.AddNoise,\
+ com.weka.filters.unsupervised.attribute.AddValues,\
+ com.weka.filters.unsupervised.attribute.Center,\
+ com.weka.filters.unsupervised.attribute.ChangeDateFormat,\
+ com.weka.filters.unsupervised.attribute.ClusterMembership,\
+ com.weka.filters.unsupervised.attribute.Copy,\
+ com.weka.filters.unsupervised.attribute.Discretize,\
+ com.weka.filters.unsupervised.attribute.EMImputation,\
+ com.weka.filters.unsupervised.attribute.FirstOrder,\
+ com.weka.filters.unsupervised.attribute.KernelFilter,\
+ com.weka.filters.unsupervised.attribute.MakeIndicator,\
+ com.weka.filters.unsupervised.attribute.MathExpression,\
+ com.weka.filters.unsupervised.attribute.MergeTwoValues,\
+ com.weka.filters.unsupervised.attribute.MultiInstanceToPropositional,\
+ com.weka.filters.unsupervised.attribute.NominalToBinary,\
+ com.weka.filters.unsupervised.attribute.NominalToString,\
+ com.weka.filters.unsupervised.attribute.Normalize,\
+ com.weka.filters.unsupervised.attribute.NumericToBinary,\
+ com.weka.filters.unsupervised.attribute.NumericTransform,\
+ com.weka.filters.unsupervised.attribute.Obfuscate,\
+ com.weka.filters.unsupervised.attribute.PKIDiscretize,\
+ com.weka.filters.unsupervised.attribute.PrincipalComponents,\
+ com.weka.filters.unsupervised.attribute.PropositionalToMultiInstance,\
+ com.weka.filters.unsupervised.attribute.RandomProjection,\
+ com.weka.filters.unsupervised.attribute.Remove,\
+ com.weka.filters.unsupervised.attribute.RemoveType,\
+ com.weka.filters.unsupervised.attribute.RemoveUseless,\
+ com.weka.filters.unsupervised.attribute.Reorder,\
+ com.weka.filters.unsupervised.attribute.ReplaceMissingValues,\
+ com.weka.filters.unsupervised.attribute.Standardize,\
+ com.weka.filters.unsupervised.attribute.StringToNominal,\
+ com.weka.filters.unsupervised.attribute.StringToWordVector,\
+ com.weka.filters.unsupervised.attribute.SwapValues,\
+ com.weka.filters.unsupervised.attribute.TimeSeriesDelta,\
+ com.weka.filters.unsupervised.attribute.TimeSeriesTranslate,\
+ com.weka.filters.unsupervised.attribute.Wavelet,\
+ com.weka.filters.unsupervised.instance.NonSparseToSparse,\
+ com.weka.filters.unsupervised.instance.Normalize,\
+ com.weka.filters.unsupervised.instance.Randomize,\
+ com.weka.filters.unsupervised.instance.RemoveFolds,\
+ com.weka.filters.unsupervised.instance.RemoveFrequentValues,\
+ com.weka.filters.unsupervised.instance.RemoveMisclassified,\
+ com.weka.filters.unsupervised.instance.RemovePercentage,\
+ com.weka.filters.unsupervised.instance.RemoveRange,\
+ com.weka.filters.unsupervised.instance.RemoveWithValues,\
+ com.weka.filters.unsupervised.instance.Resample,\
+ com.weka.filters.unsupervised.instance.ReservoirSample,\
+ com.weka.filters.unsupervised.instance.SparseToNonSparse,\
+ com.weka.filters.unsupervised.instance.SubsetByExpression
+ 
+# Lists the RegOptimizers I want to choose from
+com.weka.classifiers.functions.supportVector.RegOptimizer=\
+ com.weka.classifiers.functions.supportVector.RegSMO,\
+ com.weka.classifiers.functions.supportVector.RegSMOImproved
+ 
+# Lists the JComponentWriters I want to choose from
+com.weka.gui.visualize.JComponentWriter=\
+ com.weka.gui.visualize.BMPWriter,\
+ com.weka.gui.visualize.JPEGWriter,\
+ com.weka.gui.visualize.PNGWriter,\
+ com.weka.gui.visualize.PostscriptWriter
+ 
+# Lists the Stemmers I want to choose from
+com.weka.core.stemmers.Stemmer=\
+ com.weka.core.stemmers.IteratedLovinsStemmer,\
+ com.weka.core.stemmers.LovinsStemmer,\
+ com.weka.core.stemmers.NullStemmer,\
+ com.weka.core.stemmers.SnowballStemmer
+ 
+# Lists the Kernels I want to choose from
+com.weka.classifiers.functions.supportVector.Kernel=\
+ com.weka.classifiers.functions.supportVector.NormalizedPolyKernel,\
+ com.weka.classifiers.functions.supportVector.PolyKernel,\
+ com.weka.classifiers.functions.supportVector.PrecomputedKernelMatrixKernel,\
+ com.weka.classifiers.functions.supportVector.Puk,\
+ com.weka.classifiers.functions.supportVector.RBFKernel,\
+ com.weka.classifiers.functions.supportVector.StringKernel,\
+ com.weka.classifiers.mi.supportVector.MIPolyKernel,\
+ com.weka.classifiers.mi.supportVector.MIRBFKernel
+ 
+# Lists the Testers I want to choose from
+com.weka.experiment.Tester=\
+ com.weka.experiment.PairedCorrectedTTester,\
+ com.weka.experiment.PairedTTester
+ 
+# Lists the ASSearchs I want to choose from
+com.weka.attributeSelection.ASSearch=\
+ com.weka.attributeSelection.BestFirst,\
+ com.weka.attributeSelection.ExhaustiveSearch,\
+ com.weka.attributeSelection.FCBFSearch,\
+ com.weka.attributeSelection.GeneticSearch,\
+ com.weka.attributeSelection.GreedyStepwise,\
+ com.weka.attributeSelection.LinearForwardSelection,\
+ com.weka.attributeSelection.RaceSearch,\
+ com.weka.attributeSelection.RandomSearch,\
+ com.weka.attributeSelection.Ranker,\
+ com.weka.attributeSelection.RankSearch,\
+ com.weka.attributeSelection.ScatterSearchV1,\
+ com.weka.attributeSelection.SubsetSizeForwardSelection
+ 
+# Lists the SplitEvaluators I want to choose from
+com.weka.experiment.SplitEvaluator=\
+ com.weka.experiment.ClassifierSplitEvaluator,\
+ com.weka.experiment.CostSensitiveClassifierSplitEvaluator,\
+ com.weka.experiment.DensityBasedClustererSplitEvaluator,\
+ com.weka.experiment.RegressionSplitEvaluator
+ 
+# Lists the DataGenerators I want to choose from
+com.weka.datagenerators.DataGenerator=\
+ com.weka.datagenerators.classifiers.classification.Agrawal,\
+ com.weka.datagenerators.classifiers.classification.BayesNet,\
+ com.weka.datagenerators.classifiers.classification.LED24,\
+ com.weka.datagenerators.classifiers.classification.RandomRBF,\
+ com.weka.datagenerators.classifiers.classification.RDG1,\
+ com.weka.datagenerators.classifiers.regression.Expression,\
+ com.weka.datagenerators.classifiers.regression.MexicanHat,\
+ com.weka.datagenerators.clusterers.BIRCHCluster,\
+ com.weka.datagenerators.clusterers.SubspaceCluster
+ 
+# Lists the AbstractFileLoaders I want to choose from
+com.weka.core.converters.AbstractFileLoader=\
+ com.weka.core.converters.ArffLoader,\
+ com.weka.core.converters.C45Loader,\
+ com.weka.core.converters.CSVLoader,\
+ com.weka.core.converters.LibSVMLoader,\
+ com.weka.core.converters.MatlabLoader,\
+ com.weka.core.converters.SerializedInstancesLoader,\
+ com.weka.core.converters.XRFFLoader
+ 
+# Lists the AbstractFileSavers I want to choose from
+com.weka.core.converters.AbstractFileSaver=\
+ com.weka.core.converters.ArffSaver,\
+ com.weka.core.converters.C45Saver,\
+ com.weka.core.converters.CSVSaver,\
+ com.weka.core.converters.LibSVMSaver,\
+ com.weka.core.converters.MatlabSaver,\
+ com.weka.core.converters.SerializedInstancesSaver,\
+ com.weka.core.converters.XRFFSaver
+ 
+# Lists the BayesNetEstimators I want to choose from
+com.weka.classifiers.bayes.net.estimate.BayesNetEstimator=\
+ com.weka.classifiers.bayes.net.estimate.BayesNetEstimator,\
+ com.weka.classifiers.bayes.net.estimate.BMAEstimator,\
+ com.weka.classifiers.bayes.net.estimate.MultiNomialBMAEstimator,\
+ com.weka.classifiers.bayes.net.estimate.SimpleEstimator
+ 
+# Lists the MainMenuExtensions I want to choose from
+com.weka.gui.MainMenuExtension=\
+ 
+ 
+# Lists the KDTreeNodeSplitters I want to choose from
+com.weka.core.neighboursearch.kdtrees.KDTreeNodeSplitter=\
+ com.weka.core.neighboursearch.kdtrees.KMeansInpiredMethod,\
+ com.weka.core.neighboursearch.kdtrees.MedianOfWidestDimension,\
+ com.weka.core.neighboursearch.kdtrees.MidPointOfWidestDimension,\
+ com.weka.core.neighboursearch.kdtrees.SlidingMidPointOfWidestSide
+ 
+# Lists the Associators I want to choose from
+com.weka.associations.Associator=\
+ com.weka.associations.Apriori,\
+ com.weka.associations.FilteredAssociator,\
+ com.weka.associations.GeneralizedSequentialPatterns,\
+ com.weka.associations.HotSpot,\
+ com.weka.associations.PredictiveApriori,\
+ com.weka.associations.Tertius
+ 
+# Lists the ResultProducers I want to choose from
+com.weka.experiment.ResultProducer=\
+ com.weka.experiment.AveragingResultProducer,\
+ com.weka.experiment.CrossValidationResultProducer,\
+ com.weka.experiment.DatabaseResultProducer,\
+ com.weka.experiment.LearningRateResultProducer,\
+ com.weka.experiment.RandomSplitResultProducer
+ 
+# Lists the DensityBasedClusterers I want to choose from
+com.weka.clusterers.DensityBasedClusterer=\
+ com.weka.clusterers.EM,\
+ com.weka.clusterers.MakeDensityBasedClusterer
+ 
+# Lists the Filters I want to choose from
+com.weka.filters.Filter=\
+ com.weka.filters.AllFilter,\
+ com.weka.filters.MultiFilter,\
+ com.weka.filters.supervised.attribute.AddClassification,\
+ com.weka.filters.supervised.attribute.AttributeSelection,\
+ com.weka.filters.supervised.attribute.ClassOrder,\
+ com.weka.filters.supervised.attribute.Discretize,\
+ com.weka.filters.supervised.attribute.NominalToBinary,\
+ com.weka.filters.supervised.attribute.PLSFilter,\
+ com.weka.filters.supervised.instance.Resample,\
+ com.weka.filters.supervised.instance.SpreadSubsample,\
+ com.weka.filters.supervised.instance.StratifiedRemoveFolds,\
+ com.weka.filters.supervised.instance.SMOTE,\
+ com.weka.filters.unsupervised.attribute.Add,\
+ com.weka.filters.unsupervised.attribute.AddCluster,\
+ com.weka.filters.unsupervised.attribute.AddExpression,\
+ com.weka.filters.unsupervised.attribute.AddID,\
+ com.weka.filters.unsupervised.attribute.AddNoise,\
+ com.weka.filters.unsupervised.attribute.AddValues,\
+ com.weka.filters.unsupervised.attribute.Center,\
+ com.weka.filters.unsupervised.attribute.ChangeDateFormat,\
+ com.weka.filters.unsupervised.attribute.ClassAssigner,\
+ com.weka.filters.unsupervised.attribute.ClusterMembership,\
+ com.weka.filters.unsupervised.attribute.Copy,\
+ com.weka.filters.unsupervised.attribute.Discretize,\
+ com.weka.filters.unsupervised.attribute.EMImputation,\
+ com.weka.filters.unsupervised.attribute.FirstOrder,\
+ com.weka.filters.unsupervised.attribute.InterquartileRange,\
+ com.weka.filters.unsupervised.attribute.KernelFilter,\
+ com.weka.filters.unsupervised.attribute.MakeIndicator,\
+ com.weka.filters.unsupervised.attribute.MathExpression,\
+ com.weka.filters.unsupervised.attribute.MergeTwoValues,\
+ com.weka.filters.unsupervised.attribute.MultiInstanceToPropositional,\
+ com.weka.filters.unsupervised.attribute.NominalToBinary,\
+ com.weka.filters.unsupervised.attribute.NominalToString,\
+ com.weka.filters.unsupervised.attribute.Normalize,\
+ com.weka.filters.unsupervised.attribute.NumericCleaner,\
+ com.weka.filters.unsupervised.attribute.NumericToBinary,\
+ com.weka.filters.unsupervised.attribute.NumericToNominal,\
+ com.weka.filters.unsupervised.attribute.NumericTransform,\
+ com.weka.filters.unsupervised.attribute.Obfuscate,\
+ com.weka.filters.unsupervised.attribute.PartitionedMultiFilter,\
+ com.weka.filters.unsupervised.attribute.PKIDiscretize,\
+ com.weka.filters.unsupervised.attribute.PrincipalComponents,\
+ com.weka.filters.unsupervised.attribute.PropositionalToMultiInstance,\
+ com.weka.filters.unsupervised.attribute.RandomProjection,\
+ com.weka.filters.unsupervised.attribute.RandomSubset,\
+ com.weka.filters.unsupervised.attribute.RELAGGS,\
+ com.weka.filters.unsupervised.attribute.Remove,\
+ com.weka.filters.unsupervised.attribute.RemoveType,\
+ com.weka.filters.unsupervised.attribute.RemoveUseless,\
+ com.weka.filters.unsupervised.attribute.Reorder,\
+ com.weka.filters.unsupervised.attribute.ReplaceMissingValues,\
+ com.weka.filters.unsupervised.attribute.Standardize,\
+ com.weka.filters.unsupervised.attribute.StringToNominal,\
+ com.weka.filters.unsupervised.attribute.StringToWordVector,\
+ com.weka.filters.unsupervised.attribute.SwapValues,\
+ com.weka.filters.unsupervised.attribute.TimeSeriesDelta,\
+ com.weka.filters.unsupervised.attribute.TimeSeriesTranslate,\
+ com.weka.filters.unsupervised.attribute.Wavelet,\
+ com.weka.filters.unsupervised.instance.NonSparseToSparse,\
+ com.weka.filters.unsupervised.instance.Normalize,\
+ com.weka.filters.unsupervised.instance.Randomize,\
+ com.weka.filters.unsupervised.instance.RemoveFolds,\
+ com.weka.filters.unsupervised.instance.RemoveFrequentValues,\
+ com.weka.filters.unsupervised.instance.RemoveMisclassified,\
+ com.weka.filters.unsupervised.instance.RemovePercentage,\
+ com.weka.filters.unsupervised.instance.RemoveRange,\
+ com.weka.filters.unsupervised.instance.RemoveWithValues,\
+ com.weka.filters.unsupervised.instance.Resample,\
+ com.weka.filters.unsupervised.instance.ReservoirSample,\
+ com.weka.filters.unsupervised.instance.SparseToNonSparse,\
+ com.weka.filters.unsupervised.instance.SubsetByExpression
+ 
+# Lists the Estimators I want to choose from
+com.weka.estimators.Estimator=\
+ com.weka.estimators.DiscreteEstimator,\
+ com.weka.estimators.KernelEstimator,\
+ com.weka.estimators.MahalanobisEstimator,\
+ com.weka.estimators.NormalEstimator,\
+ com.weka.estimators.PoissonEstimator
+ 
+# Lists the Univariate Density Estimators I want to choose from
+com.weka.estimators.UnivariateDensityEstimator= \
+ com.weka.estimators.UnivariateNormalEstimator,\
+ com.weka.estimators.UnivariateKernelDensityEstimator,\
+ com.weka.estimators.UnivariateEqualFrequencyHistogramEstimator,\
+ com.weka.estimators.UnivariateMixtureEstimator
+
+# Lists the BallSplitters I want to choose from
+com.weka.core.neighboursearch.balltrees.BallSplitter=\
+ com.weka.core.neighboursearch.balltrees.MedianDistanceFromArbitraryPoint,\
+ com.weka.core.neighboursearch.balltrees.MedianOfWidestDimension,\
+ com.weka.core.neighboursearch.balltrees.PointsClosestToFurthestChildren
+
+# Lists the partition generators I want to choose from
+com.weka.core.PartitionGenerator=\
+ com.weka.classifiers.trees.J48,\
+ com.weka.classifiers.meta.FilteredClassifier
+
+# stopword algorithms
+com.weka.core.stopwords.StopwordsHandler=\
+  com.weka.core.stopwords.MultiStopwords,\
+  com.weka.core.stopwords.Null,\
+  com.weka.core.stopwords.Rainbow,\
+  com.weka.core.stopwords.RegExpFromFile,\
+  com.weka.core.stopwords.WordsFromFile
+ 

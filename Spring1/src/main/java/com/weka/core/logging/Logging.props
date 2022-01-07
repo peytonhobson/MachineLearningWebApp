@@ -1,0 +1,33 @@
+# Defines the logging used in Weka
+#
+# Author: FracPete (fracpete at waikato dot ac dot nz)
+# Version: $Revision$
+
+# the logging class to use
+com.weka.core.logging.Logger=com.weka.core.logging.OutputLogger
+#com.weka.core.logging.Logger=com.weka.core.logging.ConsoleLogger
+#com.weka.core.logging.Logger=com.weka.core.logging.FileLogger
+
+# the logging level that log message must have at least in order to appear in
+# the log. Possible values:
+#   ALL
+#   FINEST
+#   FINER
+#   FINE
+#   INFO
+#   WARNING
+#   SEVERE
+#   OFF
+com.weka.core.logging.MinLevel=INFO
+
+# the date format
+com.weka.core.logging.DateFormat=yyyy-MM-dd HH:mm:ss
+
+# the com.output file for the com.weka.core.logging.FileLogger
+# the following placeholders are recognized
+#   %t - the temp directory
+#   %h - the user's home directory
+#   %c - the current directory
+#   %w - WEKA_HOME
+#   %% - gets replaced by a single percentage sign
+com.weka.core.logging.LogFile=%w/com.weka.log

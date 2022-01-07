@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d073d8b0-a75e-475e-a6bc-4997ce92c13a" name="Default Changelist" comment="Successfully created output back to client">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ResponseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ResponseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weka/classifiers/evaluation/Evaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weka/classifiers/evaluation/Evaluation.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="20VwWKLFzZKKcFLs4tg2oEN1IhW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.run.dashboard.notification" value="false" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/src/main/resources/Frontend/angular-app/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Frontend/angular-app" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/Stat" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/weka" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/Stat" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="weka" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StatisticalWebApplication (1)">
+    <configuration name="ServerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.web.ServerDriver" />
+      <module name="StatisticalAnalysisWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="StatisticalWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StatisticalAnalysisWebApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.StatisticalWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticalWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="StatisticalAnalysisWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.StatisticalWebApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/src/main/resources/Frontend/angular-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ServerDriver" />
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Spring Boot.StatisticalWebApplication (1)" />
+      <item itemvalue="Spring Boot.StatisticalWebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerDriver" />
+        <item itemvalue="Spring Boot.StatisticalWebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d073d8b0-a75e-475e-a6bc-4997ce92c13a" name="Default Changelist" comment="" />
+      <created>1636143094026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636143094026</updated>
+      <workItem from="1636145571327" duration="676000" />
+      <workItem from="1636323682928" duration="600000" />
+      <workItem from="1639958156023" duration="2235000" />
+      <workItem from="1640307725507" duration="2929000" />
+      <workItem from="1640315561780" duration="1326000" />
+      <workItem from="1640551267038" duration="1519000" />
+      <workItem from="1640555958852" duration="223000" />
+      <workItem from="1640556320327" duration="20000" />
+      <workItem from="1640972998996" duration="1723000" />
+      <workItem from="1640975852776" duration="4779000" />
+      <workItem from="1641164243317" duration="1665000" />
+      <workItem from="1641167882888" duration="33000" />
+      <workItem from="1641167948311" duration="5304000" />
+      <workItem from="1641173375247" duration="1693000" />
+      <workItem from="1641176300667" duration="598000" />
+      <workItem from="1641241275454" duration="1323000" />
+      <workItem from="1641245343454" duration="618000" />
+      <workItem from="1641246552420" duration="829000" />
+      <workItem from="1641330160831" duration="932000" />
+      <workItem from="1641331213082" duration="2356000" />
+      <workItem from="1641409318237" duration="2161000" />
+      <workItem from="1641412440047" duration="2156000" />
+      <workItem from="1641414753234" duration="3759000" />
+      <workItem from="1641420682360" duration="7052000" />
+      <workItem from="1641431584902" duration="174000" />
+      <workItem from="1641431920765" duration="4520000" />
+      <workItem from="1641477894532" duration="2130000" />
+      <workItem from="1641495559834" duration="411000" />
+      <workItem from="1641497672681" duration="4000" />
+      <workItem from="1641580679066" duration="13000" />
+    </task>
+    <task id="LOCAL-00001" summary="Spring-Boot Initalized">
+      <created>1636143135897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636143135897</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Outlined packages">
+      <created>1639959796408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639959796408</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initialized Angular">
+      <created>1640313537974</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640313537974</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added datasets, classifier options, and start button">
+      <created>1640973048062</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640973048063</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added full weka src without GUI">
+      <created>1640976529493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640976529493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added full weka src without GUI">
+      <created>1640977211496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640977211496</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Started output">
+      <created>1640979658947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640979658947</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Created correct evaluation output">
+      <created>1641173038221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641173038221</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added new files from weka">
+      <created>1641173343158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641173343158</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added button active functionality and frontend socket connection">
+      <created>1641330315223</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641330315223</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created spring function and implemented frontend connection">
+      <created>1641416308776</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641416308776</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created spring function and implemented frontend connection">
+      <created>1641416337568</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641416337568</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Successfully created output back to client - Also rearranged files">
+      <created>1641478472353</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641478472353</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Successfully created output back to client">
+      <created>1641478705588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641478705588</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Successfully created output back to client">
+      <created>1641479426328</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1641479426328</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring-Boot Initalized" />
+    <MESSAGE value="Outlined packages" />
+    <MESSAGE value="Initialized Angular" />
+    <MESSAGE value="Added datasets, classifier options, and start button" />
+    <MESSAGE value="Added full weka src without GUI" />
+    <MESSAGE value="Started output" />
+    <MESSAGE value="Created correct evaluation output" />
+    <MESSAGE value="Added new files from weka" />
+    <MESSAGE value="Added button active functionality and frontend socket connection" />
+    <MESSAGE value="Created spring function and implemented frontend connection" />
+    <MESSAGE value="Successfully created output back to client - Also rearranged files" />
+    <MESSAGE value="Successfully created output back to client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully created output back to client" />
+  </component>
+</project>

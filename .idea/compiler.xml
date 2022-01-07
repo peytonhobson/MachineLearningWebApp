@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="StatisticalAnalysisWebApp" target="1.8" />
+      <module name="StatisticalAnalysisWebApp" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

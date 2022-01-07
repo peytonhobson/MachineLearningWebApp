@@ -1,0 +1,42 @@
+# The processing of Capabilities is managed with the properties stored
+# in this file.
+#
+# author:  Fracpete (fracpete at waikato dot ac dot nz)
+# version: $Revision$
+
+# are Capabilities tests enabled at all?
+Test=true
+
+# enable tests that are based on the data 
+# see com.weka.core.Capabilities.test(Instances,int,int)
+InstancesTest=true
+
+# enable tests that work only on the type of attribute, not the data
+# see com.weka.core.Capabilities.test(Attribute,boolean)
+AttributeTest=true
+
+# test for missing values
+# see com.weka.core.Capabilities.test(Instances,int,int)
+MissingValuesTest=true
+
+# test for missing class values
+# see com.weka.core.Capabilities.test(Instances,int,int)
+MissingClassValuesTest=true
+
+# test for minimum number of instances
+# see com.weka.core.Capabilities.test(Instances,int,int)
+MinimumNumberInstancesTest=true
+
+# Capabilities defined by interfaces
+WeightedInstancesHandlerInterfaceCapability=com.weka.core.WeightedInstancesHandler
+WeightedAttributesHandlerInterfaceCapability=com.weka.core.WeightedAttributesHandler
+RandomizableInterfaceCapability=com.weka.core.Randomizable
+DrawableInterfaceCapability=com.weka.core.Drawable
+PartitionGeneratorInterfaceCapability=com.weka.core.PartitionGenerator
+UpdateableClassifierInterfaceCapability=com.weka.classifiers.UpdateableClassifier
+UpdateableClustererInterfaceCapability=com.weka.clusterers.UpdateableClusterer
+SourcableFilterInterfaceCapability=com.weka.filters.Sourcable
+SourcableClassifierInterfaceCapability=com.weka.classifiers.Sourcable
+StreamableFilterInterfaceCapability=com.weka.filters.StreamableFilter
+UnsupervisedFilterInterfaceCapability=com.weka.filters.UnsupervisedFilter
+SupervisedFilterInterfaceCapability=com.weka.filters.SupervisedFilter
