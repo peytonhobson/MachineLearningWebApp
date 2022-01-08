@@ -1,0 +1,101 @@
+<body class="bg-danger">
+  <div class="container bg-danger bg-gradient">
+    <div class="main-body">
+  
+      <!-- Need to add active function for multiple pages-->
+      <nav class="navbar navbar-light bg-dark">
+        <div class="col-md-4">
+            <a class="navbar-brand" id="HomeLink" href="#">Home</a>
+            <a class="navbar-brand border active" href="#">Machine Learning App</a>
+        </div>
+      </nav>
+  
+      <!--Card used to display dataset buttons-->
+      <div class="row gutters-sm">
+        <div class="col-md-4 mb-3">
+          <div>
+            <button class="btn btn-dark btn-md ChoiceButtons">Choose a Dataset:</button>
+          </div>
+          <div class="card col-md-12">
+              <div class="card-body">
+                <div class="row">
+                  <ul class="list-group list-group-flush align-items-center" id="datasetList">
+                    <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                      <button class = "datasetButton btn btn-outline-dark active" (click)="dsClick('Weather')" id="Weather">Weather</button>
+                    </li>
+                    <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                      <button class = "datasetButton btn btn-outline-dark" (click)="dsClick('Labor')" id="Labor">Labor</button>
+                    </li>
+                    <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                      <button class = "datasetButton btn btn-outline-dark" (click)="dsClick('Supermarket')"id="Supermarket">Supermarket</button>
+                    </li>
+                    <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                      <button class = "datasetButton btn btn-outline-dark" (click)="dsClick('Vote')" id="Vote">Vote</button>
+                    </li>
+                    <li class="list-group-item d-flex dataset-list justify-content-between align-items-center">
+                      <button class = "datasetButton btn btn-outline-dark" (click)="dsClick('Diabetes')" id="Diabetes">Diabetes</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+  
+        <!--Card used to display method buttons-->
+        <div>
+          <button class="btn btn-dark btn-md ChoiceButtons">Choose a Classifier:</button>
+        </div>
+        <div class="card col-md-12" id="MethodsBody">
+          <div class="card-body" id="Methods">
+            <div class="row">
+              <h3 class="text-center">Choose a Classifier</h3>
+            </div>
+            <ul class="list-group list-group-flush align-items-center" id="methodList">
+              <li class="list-group-item method-list d-flex justify-content-between align-items-center">
+                <button class="methodButton btn btn-outline-dark active" (click)="mClick('NaiveBayes')" id="NaiveBayes">Naive Bayes</button>
+              </li>
+              <li class="list-group-item method-list d-flex justify-content-between align-items-center">
+                <button class="methodButton btn btn-outline-dark" (click)="mClick('LogisticRegression')" id="LogisticRegression">Logistic Regression</button>
+              </li>
+              <li class="list-group-item method-list d-flex justify-content-between align-items-center">
+                <button class="methodButton btn btn-outline-dark" (click)="mClick('ZeroR')" id="ZeroR">ZeroR</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <!-- Start button-->
+        <div class="d-grid gap-2" id="StartButton">
+          <button class="btn btn-dark btn-lg" (click)="startClick()">Start</button>
+        </div>
+  
+      </div>
+  
+  
+        <!--Right section of buttons and boxes-->
+        <div class="col-md-8">
+            <div>
+              <button  id = "Header" class="btn btn-dark btn-md">Classifier Output</button> 
+            </div>
+            <div id="output" class="card"> <!-- Contains card for classification output-->
+              <span  class="border" id="outputContainer"></span>
+            </div>
+            <div class="d-grid gap-2">
+              <div>
+                <button id="Header" class="btn btn-dark btn-md">Data Preview</button>
+              </div>
+            </div>
+            <div class="card border border-outline-dark" id="FileDisplay"> <!-- Contains card for embedded file display-->
+              <embed id="embed" src="https://storm.cis.fordham.edu/~gweiss/data-mining/weka-data/weather.arff"/>
+            </div>
+          
+        </div>
+  
+        <!--Used to remove white space at bottom of page-->
+      <div id="filler">
+      </div>
+    
+  
+    </div>
+  </div> 
+  
+  
